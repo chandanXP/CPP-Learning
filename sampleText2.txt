@@ -1,0 +1,3 @@
+Hello there!
+this is second file of sampleText
+and, it third line of sampleText2.txt

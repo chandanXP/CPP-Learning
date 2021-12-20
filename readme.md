@@ -98,7 +98,16 @@ Polymorphism can be of two types:
 2. Run time ploymorphism
      Run time polymorphism in C++ is achieved using:
      2.1 Virtual function
-     
+
+Virtual Function:
+--> A virtual function or virtual method in an OOP language is a function or method used to override the behavior of the function in an inherited class with the same signature to achieve the polymorphism.
+
+-->By default, all the instance methods in Java are considered as the Virtual function except final, static, and private methods as these methods can be used to achieve polymorphism.
+
+-->We can override the virtual function with the inheriting class function using the same function name. Generally, the virtual function is defined in the parent class and override it in the inherited class.
+
+-->A virtual function should have the same name and parameters in the base and derived class.
+
 Abstract base class:
 1. It do nothing.
 2. It is creates so that we can create derived classes from abstract base class
@@ -116,5 +125,8 @@ In order to work with files in C++ , you will have to open it. primarily, there 
 STL[Standard Template Library]: is used because its not a good idea to reinvent the wheel
 Components of STL
      1. Containers(vectors,stores data, uses template classes)
+          1.1 Sequence container: stores data in linear fashion, ex: vector, list, dequeue.
+          1.2 Associative conatainer: Direct access. ex: Set/Multi set and Map/Multi map.
+          1.3 Derived container: Real world modeling. Ex: stack, queue, priority-queue
      2. Algorithms(sorting , searching, merging, copying, uses template functions)
      3. Iterators(It is a object points to an element in a conatainer. Handles just like pointers. connects algo with the containers.)
